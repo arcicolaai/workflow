@@ -1,0 +1,125 @@
+{
+  "site": {
+    "name": "Workflow Coworking Space",
+    "tagline": "Your best work gets done here.",
+    "description": "The first ever coworking space and study hub in Ozamiz City and Misamis Occidental"
+  },
+  "hero": {
+    "backgroundImage": "/images/heropic.png",
+    "backgroundImageAlt": "Workflow Coworking Space interior",
+    "subtitle": "Workflow Coworking Space",
+    "title": "Your best work gets done",
+    "titleHighlight": "here.",
+    "description": "The first ever coworking space and study hub in Ozamiz City and Misamis Occidental",
+    "buttons": [
+      {
+        "text": "ORDER NOW",
+        "type": "primary",
+        "action": "order"
+      },
+      {
+        "text": "BOOK OUR SPACE",
+        "type": "secondary",
+        "action": "book"
+      }
+    ]
+  },
+  "about": {
+    "title": "About us",
+    "paragraphs": [
+      "Made by the passionate, for the passionate.",
+      "Workflow Coworking Space is the first ever hub in the heart of Ozamiz City and Misamis Occidental, designed to inspire productivity and collaboration.",
+      "We provide a welcoming space for freelancers, students, and entrepreneurs to work, connect, and grow together."
+    ],
+    "image": "/images/about.jpeg",
+    "imageAlt": "Workflow Coworking Space - people working together",
+    "overlayText": "workflow coworking",
+    "button": {
+      "text": "LEARN MORE",
+      "action": "learn-more"
+    },
+    "titleColor": "#7B7557",
+    "textColor": "#1E1E1E",
+    "buttonColor": "#7B7557",
+    "buttonHoverColor": "#605B45"
+  },
+  "features": [
+    {
+      "name": "High Speed Internet",
+      "icon": "wifi"
+    },
+    {
+      "name": "Power Outlets",
+      "icon": "outlet"
+    },
+    {
+      "name": "Air Conditioned",
+      "icon": "ac"
+    },
+    {
+      "name": "Ergonomic Chairs",
+      "icon": "chair"
+    }
+  ],
+  "ourSpace": {
+    "title": "Our Space",
+    "description": "Designed to inspire productivity and creativity, our space welcomes students, freelancers, entrepreneurs, and anyone in search of a comfortable place to work or unwind. Enjoy a wide selection of beverages from coffee favorites and milk based drinks to matcha and more paired perfectly with satisfying rice meals and snacks. Simply place your order, settle in, and make the space your own for the day. Planning something bigger? You can also book the entire venue for events, seminars, and special gatherings.",
+    "button": {
+      "text": "RATES",
+      "action": "rates"
+    },
+    "images": [
+      "/images/image1.png",
+      "/images/image2.jpg",
+      "/images/image3.jpg",
+      "/images/image4.png",
+      "/images/image1.png",
+      "/images/image2.jpg",
+      "/images/image3.jpg",
+      "/images/image4.png"
+    ],
+    "carousel": {
+      "itemsPerGroup": 4,
+      "autoSlideInterval": 5000
+    }
+  },
+  "navigation": {
+    "logo": {
+      "text": "W",
+      "icon": "♥"
+    },
+    "links": [
+      {
+        "text": "Home",
+        "to": "#hero"
+      },
+      {
+        "text": "About",
+        "to": "#about"
+      },
+      {
+        "text": "Our Space",
+        "to": "/our-space"
+      },
+      {
+        "text": "Menu",
+        "to": "/menu"
+      },
+      {
+        "text": "Announcements",
+        "to": "/announcements"
+      }
+    ],
+    "contactButton": {
+      "text": "Contact Us",
+      "to": "/contact"
+    }
+  },
+  "colors": {
+    "primary": "#7B7557",
+    "primaryHover": "#605B45",
+    "workflowGreen": "#7B7557",
+    "workflowGreenHover": "#605B45"
+  }
+}
+
