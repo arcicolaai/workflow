@@ -1,0 +1,73 @@
+/* Base: Poppins body, Fraunces for headings */
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF6EF;
+}
+
+.font-heading {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+/* Ensure icons are visible (inherit text color) */
+svg.iconify,
+[data-icon] svg,
+.NuxtIcon svg {
+  fill: currentColor;
+  color: inherit;
+}
+
+/* Minimal, non-distracting animations (short, ease-out, respect reduced motion) */
+@media (prefers-reduced-motion: no-preference) {
+  .animate-fade-in {
+    animation: fade-in 0.25s ease-out forwards;
+  }
+  .animate-fade-in-up {
+    animation: fade-in-up 0.3s ease-out forwards;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in,
+  .animate-fade-in-up {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Modal enter/leave (for Vue Transition) */
+.modal-backdrop-enter-active,
+.modal-backdrop-leave-active {
+  transition: opacity 0.2s ease;
+}
+.modal-backdrop-enter-from,
+.modal-backdrop-leave-to {
+  opacity: 0;
+}
+
+.modal-panel-enter-active,
+.modal-panel-leave-active {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.modal-panel-enter-from,
+.modal-panel-leave-to {
+  opacity: 0;
+  transform: scale(0.98) translateY(8px);
+}

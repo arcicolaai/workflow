@@ -1,8 +1,5 @@
 import siteData from '~/data/site-data'
 
-export const useSiteData = () => {
-  return {
-    siteData
-  }
+export function useSiteData() {
+  return { siteData }
 }
-

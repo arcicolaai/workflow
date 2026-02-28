@@ -1,0 +1,14 @@
+{
+  "sidebar": {
+    "logoImage": "/images/logo.png",
+    "logoAlt": "Workflow",
+    "brandText": "WORKFLOW MANAGER"
+  },
+  "nav": [
+    { "label": "Dashboard", "path": "/manager", "icon": "dashboard" },
+    { "label": "Users", "path": "/manager/users", "icon": "users" },
+    { "label": "Bookings", "path": "/manager/bookings", "icon": "bookings" },
+    { "label": "Sales Reports", "path": "/manager/sales", "icon": "sales" }
+  ],
+  "welcome": { "title": "Welcome, Manager!" }
+}

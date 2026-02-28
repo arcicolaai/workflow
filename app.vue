@@ -1,16 +1,5 @@
 <template>
-  <div>
-    <Navbar />
+  <NuxtLayout>
     <NuxtPage />
-  </div>
-
-  <Head>
-  <Link rel="preconnect" href="https://fonts.googleapis.com" />
-  <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <Link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-</Head>
+  </NuxtLayout>
 </template>
-
-<script setup>
-import Navbar from './components/Navbar.vue'
-</script>
